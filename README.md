@@ -1,6 +1,12 @@
 # Zig Kernel Example
 
-Zig Kernel Example is a barebones kernel project written in Zig.
+Zig Kernel Example is a barebones kernel project written in Zig. not truly  kernel but a bootable binary
+
+## Screenshot
+
+
+
+![Screenshot](./screenshot01.png)
 
 ## Features
 - Minimalistic kernel design.
