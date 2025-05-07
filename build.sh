@@ -48,19 +48,6 @@ if ! cmd_exists $LLVM_OBJCOPY; then
 fi
 
 
-
-if [ ! cmd_exists $LLVM_OBJCOPY ]; then
-	echo "llvm-objcopy-19 not found"
-	echo "trying llvm-objcopy"
-	LLVM_OBJCOPY=llvm-objcopy
-	
-	if [ ! cmd_exists $LLVM_OBJCOPY ]; then
-		echo "llvm-objcopy not found"
-		echo "please install llvm-19 or llvm-20"
-		exit 1
-	fi
-fi
-
 if ! [ -z "$1" ]; then
 	case "$1" in
 	clean)
